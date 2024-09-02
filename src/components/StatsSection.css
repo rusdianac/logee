@@ -1,0 +1,14 @@
+.stats {
+  margin: -120px 100px 100px 100px;
+  height: 252px;
+  border: 0px solid white;
+  padding: 80px 5% 80px 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+  z-index: 5;
+}
+
+.stat-item {
+  float: left;
+  width: 25%;
+}

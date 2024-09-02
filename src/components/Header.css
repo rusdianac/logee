@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: transparent;
+  padding: 18px 80px 18px 80px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo img {
+  width: auto;
+  height: 100px;
+  float: left;
+  margin: 0px;
+}
+
+.header-left {
+  float: left;
+  margin-top: 15px;
+  margin-right: -25px;
+}
+
+.header-left a {
+  line-height: 65px;
+  position: relative;
+  padding: 0 25px;
+  font-size: 18px;
+  color: white;
+  display: block;
+  float: left;
+  display: block;
+}
+
+.header-left a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 0;
+  bottom: 5px;
+  background-color: #f76707;
+  transition: 0.6s;
+}
+
+.header-left a:hover::after {
+  width: 100%;
+}
+
+.auth-buttons {
+  float: right;
+  margin-top: 15px;
+}
+
+.header .btn {
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn-register {
+  padding: 15px 40px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 15px;
+  transition: all 0.5s;
+  border: 1px solid white;
+}
+
+.btn-login {
+  padding: 15px 40px;
+  background-color: #f76707;
+  cursor: pointer;
+  transition: all 0.5s;
+  border: 1px solid #f76707;
+}
+
+.btn-register:hover {
+  background-color: #f76707;
+}
+
+.btn-login:hover {
+  background-color: #ca5406;
+}

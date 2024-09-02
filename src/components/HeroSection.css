@@ -1,0 +1,43 @@
+.hero {
+  background-image: url("../assets/images/backgroundImage.png");
+  color: white;
+  background-size: cover;
+  height: 150vh;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-top: 430px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero-buttons .btn {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.play-button {
+  margin-right: 10px;
+}
+
+.btn-trial {
+  background-color: #f76707;
+  color: white;
+  border: none;
+}
+
+.btn-video {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
